@@ -12,3 +12,5 @@ To stop container: Ctrl+c
 To test use command "docker-compose up -d" to run container in background and then run: "docker-compose run --rm web pytest test.py"
 
 To stop background container: "docker-compose down"
+
+To run app from terminal without docker container, it is needed to create database(or use db_creation.py, where database settings must be set in config) and change DataBase settings in models.py
